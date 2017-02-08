@@ -2,7 +2,11 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
+  <!-- Content Type Meta tag -->
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+     <!--Responsive Viewport Meta tag-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>Andrew's to do application</title>
 
     <!-- style sheets -->
@@ -21,28 +25,17 @@
         <button id="add"><i class="material-icons">add</i></button>
     </header>
 
-    <article class="container">
+    <div class="container">
 
         <!-- uncompleted task -->
-        <ul class="todo" id="todo">
-
-          <!-- this is just the example  -->
-            <!-- <li>Something
-                <div class="buttons">
-                    <button class="remove"><i class="material-icons">highlight_off</i></button>
-                    <button class="complete"><i class="material-icons">done</i></button>
-                </div>
-            </li> -->
-        </ul>
+        <ul class="todo" id="todo"></ul>
 
 
         <!-- completed task -->
-        <ul class="todo" id="completed">
-
-        </ul>
+        <ul class="todo" id="completed"></ul>
 
 
-    </article>
+    </div>
     <script type="text/javascript" src="main.js"></script>
 
 </body>
